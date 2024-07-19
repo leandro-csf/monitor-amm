@@ -1,0 +1,69 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.container {
+    width: 90%; 
+    margin: 0 auto; 
+}
+
+.list-domains {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: flex-start; 
+    gap: 5px; 
+}
+
+.title {
+    margin-left: 5%;
+    font-size: 25px;
+}
+
+.cabecalho, .alert {
+    width: 100%; 
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    border-radius: 0;
+    --bs-alert-margin-bottom: 1%;
+    background-color: rgb(243, 243, 243);
+    padding: 10px; 
+    flex-wrap: wrap;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+}
+
+.alert-link {
+    font-size: 12px;
+}
+
+.status1, .status2, .status3, .status4 {
+    width: 30px;
+}
+
+.response-time {
+    margin-left: 10px; 
+}
+
+
+.alert span {
+    flex: 1;
+    text-align: center;
+    margin: 1px;
+}
+
+.cabecalho span {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.alert-link {
+    flex: 2;
+    text-align: left; 
+}
